@@ -815,7 +815,9 @@ img {
 
 .connect-toggler-icon {
   opacity: 0;
-  transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition:
+    opacity 250ms cubic-bezier(0.4, 0, 0.2, 1),
+    fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .connect-checkbox:checked + .connect-toggler {
@@ -825,6 +827,7 @@ img {
 
 .connect-checkbox:checked + .connect-toggler > .connect-toggler-icon {
   opacity: 1;
+  fill: #fff;
 }
 
 .connect-link {
