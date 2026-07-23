@@ -209,7 +209,6 @@ img {
   .communication-list {
     flex-direction: column;
     gap: 12px;
-    padding: 16px 0;
   }
 
   .communication-link {
@@ -335,6 +334,9 @@ img {
 }
 
 .hero-title {
+  max-width:;
+  margin-left: auto;
+  margin-right: auto;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -356,6 +358,12 @@ img {
 @media only screen and (min-width: 1158px) {
   .hero-title {
     margin: 0 auto 48px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-br {
+    display: none;
   }
 }
 
