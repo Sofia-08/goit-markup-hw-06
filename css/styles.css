@@ -526,6 +526,12 @@ img {
   }
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1157.98px) {
+  .team .container {
+    padding: 0 108px;
+  }
+}
+
 .team-title {
   max-width: 162px;
   margin: 0 auto 72px;
@@ -565,24 +571,27 @@ img {
     0px 1px 1px 0px rgba(46, 47, 66, 0.16),
     0px 1px 6px 0px rgba(46, 47, 66, 0.08);
   background: #fff;
+  width: 100%;
   max-width: 264px;
 }
 
 @media only screen and (min-width: 768px) {
   .team-item {
     width: calc((100% - 24px * 1) / 2);
+    max-width: none;
   }
 }
 
 @media only screen and (min-width: 1158px) {
   .team-item {
     width: calc((100% - 24px * 3) / 4);
+    max-width: none;
   }
 }
 
 .team-illustration {
   display: block;
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 
@@ -816,6 +825,8 @@ img {
   text-transform: uppercase;
   text-decoration: none;
   margin-bottom: 16px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 @media only screen and (min-width: 768px) {
